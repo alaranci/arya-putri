@@ -1,0 +1,22 @@
+{
+  "name": "hai-putri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/styles.scss css/styles.css",
+    "sass-watch": "sass sass/styles.scss css/styles.css --watch",
+    "build": "rollup -c"
+  },
+  "bin": {
+    "inline-script-tags": "src/cli/inlineScriptTags.js",
+    "inline-stylesheets": "src/cli/inlineStylesheets.js"
+  },
+  "author": "Irlan Navila",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "sass": "^1.43.5"
+  }
+}
